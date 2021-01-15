@@ -1,0 +1,204 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* Navigations bar CSS */
+nav {
+  padding: 0 50px 0 50px;
+  background-color: #0f0f0f;
+  height: 60px;
+  display: flex;
+  align-items: center;
+}
+
+body {
+  background-color: #F0F0F0;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #0F0F0F;
+  display: flex;
+}
+
+li {
+  height: 170%;
+  float: left;
+  padding: 0 5px;
+  margin: 0 10px 0px 10px;
+}
+
+li a {
+  font-family: Helvetica, sans-serif;
+  font-size: 150%;
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  opacity: 65%;
+}
+
+li a:hover:not(.current) {
+  opacity: 1;
+  transition: all .3s;
+}
+
+li img{
+  height: auto;
+  width: 32px;
+}
+
+
+.current{
+  opacity: 1;
+}
+
+.left{
+  float: left;
+  flex-grow: 1;
+}
+
+.right{
+  float: right;
+  height: 50%
+}
+
+.logo{
+  position: absolute;
+  height: 35px;
+  width: auto;
+  left: 50%;
+  margin-left: -43px;
+}
+
+/* grå streg på siden */
+.streg{
+  background-image: url("Images/linje_contact.svg");
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-size: contain;
+  height: 333px;
+}
+
+.footer{
+  background: #343434;
+  height: 150px;
+  position: relative;
+}
+
+.footer .copyright{
+  height: 30px;
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  padding: 10px 0 20px 0;
+  font-family: Helvetica, sans-serif;
+  font-size: 15px;
+  color: #F0F0F0;
+  font-weight: 700;
+}
+
+.footer .adresse{
+  background: #343434;
+  height: 20px;
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  padding-bottom: 5px;
+  bottom: 0px;
+  left: 0px;
+  font-family: Helvetica, sans-serif;
+  font-size: 15px;
+  color: #239F00;
+  font-weight: 700;
+}
+
+.contactinfo{
+  text-align: center;
+  padding-top: 15px;
+  font-family: Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: #F0F0F0;
+}
+
+.footer .number{
+  font-size: 16px;
+}
+
+.navn{
+  margin-top: 25px;
+  font-family: Helvetica, sans-serif;
+  font-size: 24px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.abouttekst{
+  font-family: Helvetica, sans-serif;
+  font-size: 20px;
+  text-align: left;
+  display: inline-block;
+}
+
+.aboutme{
+  font-size: 48px;
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
+  margin: 70px 0 10px 0;
+}
+
+.aboutdesc{
+  font-size: 24px;
+  font-family: Helvetica, sans-serif;
+  text-align: center;
+}
+
+.foto{
+  height: 500px;
+  width: 350px;
+  display: block;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+}
+
+.align{
+  text-align: center;
+}
+
+.beskrivelse{
+  text-align: center;
+  margin: auto;
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+}
+
+.button .buttonprojects{
+  text-align: center;
+  display: block;
+  background-color: #239F00;
+  padding: 15px 10px;
+  color: white;
+  cursor: pointer;
+  margin: 25px auto;
+  font-size: 16px;
+  border-radius: 25px;
+  font-family: Helvetica, sans-serif;
+  width: 10%;
+}
